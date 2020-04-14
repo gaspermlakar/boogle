@@ -1,0 +1,124 @@
+.navigation1 {
+    position: fixed;
+    left: 0;
+    margin-top: 15px;
+}
+
+.navigation2 {
+    position: fixed;
+    right: 15px;
+    margin-top: 8px;
+}
+
+.img-user {
+    width: 30px;
+    height: 30px;
+    margin-bottom: -4px;
+}
+
+.img-user:hover {
+    opacity: 0.8;
+}
+
+span {
+    margin: 8px;
+    font-size: 11px;
+}
+
+span:hover{
+    text-decoration: underline;
+}
+
+svg {
+    width: 1em;
+    height: 1em;
+    padding: 5px;
+    viewBox: 0 0 16 16;
+    fill: darkgray;
+}
+
+svg:hover{
+    opacity: 0.8;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-boogle {
+    width: 250px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.search {
+    position: relative;
+    padding: 10px 40px;
+    border: 1px solid lightgray;
+    width: 400px;
+    border-radius: 50px;
+    z-index: 50;
+}
+
+.search:hover {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.icon-left {
+    position: relative;
+    left: 25px;
+}
+
+.icon-right {
+    position: relative;
+    right: 35px;
+}
+
+.icon{
+    width: auto;
+    height: 11px;
+    opacity: 0.5;
+    z-index: 100;
+}
+
+button {
+    color: gray;
+    background-color: #f3f3f3;
+    padding: 10px 15px;
+    font-size: 12px;
+    margin: 20px 5px;
+    border-radius: 4px;
+    border: solid 1px #f3f3f3;
+}
+
+button:hover {
+    border: solid 1px gray;
+    color: dimgray;
+}
+
+.footer-box {
+    position: fixed;
+    bottom: 0;
+    color: gray;
+    background-color: #f3f3f3;
+    border-top: solid 1px lightgray;
+    width: 100%;
+    height: 30px;
+}
+
+.footer-left {
+    position: fixed;
+    left: 0;
+}
+
+.footer-right {
+    position: fixed;
+    right: 0;
+}
